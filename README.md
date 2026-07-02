@@ -63,4 +63,4 @@ Der Ersteller haftet für keine Schäden oder weiteres.
 
 Erstes Python-Projekt zum Lernen von Netzwerken und dem `socket`-Modul. 
 
-Ich habe für dieses Projekt mehr Chatgpt benutzt, im Gegensatz zu den anderen Projekten. Es ist trotzdem alles selbstgeschrieben und ich nutze Chatgpt nur, um zu wissen wofür der Code steht und warum
+Ich habe für dieses Projekt mehr Chatgpt benutzt, im Gegensatz zu den anderen Projekten. Es ist trotzdem alles selbstgeschrieben und ich nutze Chatgpt nur, um zu wissen wofür der Code steht und warum.
