@@ -1,1 +1,66 @@
-# Port-scanner
+# Port Scanner 🔍
+
+Ein einfacher Port Scanner, geschrieben in Python.
+
+## Beschreibung
+
+Dieses Programm überprüft, ob bestimmte Ports auf einem Zielsystem geöffnet oder geschlossen sind. Es verwendet das Python-Modul `socket`, um eine Verbindung zu den angegebenen Ports herzustellen.
+
+## Funktionen
+
+- Scannt mehrere Ports automatisch
+- Zeigt an, ob ein Port offen oder geschlossen ist
+- Verwendet TCP-Verbindungen
+- Einfach verständlicher Python-Code
+
+## Verwendete Ports
+
+Standardmäßig werden folgende Ports geprüft:
+
+- 21 (FTP)
+- 22 (SSH)
+- 80 (HTTP)
+- 443 (HTTPS)
+- 8080 (Alternative HTTP)
+
+## Voraussetzungen
+
+- Python 3.x
+
+## Verwendung
+
+1. Repository klonen oder herunterladen.
+2. Die Ziel-IP im Code anpassen:
+
+```python
+target = "127.0.0.1"
+```
+
+3. Das Programm starten:
+
+```bash
+python portscanner.py
+```
+
+## Beispiel
+
+```
+Scanning 127.0.0.1...
+
+Port 21 ist geschlossen
+Port 22 ist offen
+Port 80 ist offen
+Port 443 ist geschlossen
+Port 8080 ist geschlossen
+```
+
+## Hinweis
+
+Dieses Programm dient ausschließlich zu Lern- und Testzwecken. Scanne nur Systeme, für die du eine ausdrückliche Erlaubnis besitzt. 
+Der Ersteller haftet für keine Schäden oder weiteres.
+
+## Autor
+
+Erstes Python-Projekt zum Lernen von Netzwerken und dem `socket`-Modul. 
+
+Ich habe für dieses Projekt mehr Chatgpt benutzt, im Gegensatz zu den anderen Projekten. Es ist trotzdem alles selbstgeschrieben und ich nutze Chatgpt nur, um zu wissen wofür der Code steht und warum
